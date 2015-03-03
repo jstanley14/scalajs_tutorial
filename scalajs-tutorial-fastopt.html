@@ -5,6 +5,8 @@
     <title>The Scala.js Tutorial</title>
 </head>
 <body>
+    <button id="click-me-button" type="button" onclick="tutorial.webapp.TutorialApp().addClickedMessage()">Click me!</button>
+    <script type="text/javascript" src="./target/scala-2.11/scalajs_tutorial-jsdeps.js"></script>
     <script type="text/javascript" src="./target/scala-2.11/scalajs_tutorial-fastopt.js"></script>
     <script type="text/javascript">
         tutorial.webapp.TutorialApp().main()

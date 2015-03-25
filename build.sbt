@@ -18,3 +18,7 @@ testFrameworks += new TestFramework("utest.runner.Framework")
 skip in packageJSDependencies := false
 
 jsDependencies += RuntimeDOM
+
+persistLauncher in Compile := true
+
+persistLauncher in Test := false
